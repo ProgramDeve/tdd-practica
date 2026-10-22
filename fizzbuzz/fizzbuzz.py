@@ -1,2 +1,7 @@
 def fizzbuzz(n):
     return str(n)
+
+def fizzbuzz(n):
+    if n % 3 == 0:
+        return "Fizz"
+    return str(n)
